@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">XTSDKLibrary</string>
+    <string name="mq_elevator_info_msg">
+		{\"command\":{\"command\":{\"namespace\":\"currentMeasurement\",\"name\":\"currentMeasurement\",\"description\":\"电梯当前测量值上报\",
+		\"parameters\":[{\"name\":\"topic\",\"type\":\"String\",\"required\":false}]},\"invocation\":{\"parameterValues\":{\"topic\":\"%1$s\"}},
+		\"parameters\":{\"topic\":\"%2$s\"}},
+		\"nestingContext\":{\"gateway\":{\"token\":\"%3$s\"}}}
+	</string>
+
+	<string name="init_success">初始化成功！</string>
+	<string name="init_fail">初始化失败！</string>
+</resources>

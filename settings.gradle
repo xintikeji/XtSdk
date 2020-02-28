@@ -1,0 +1,2 @@
+include ':app',":XTSDKLibrary"
+rootProject.name='XtSdk'
